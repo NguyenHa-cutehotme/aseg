@@ -8,6 +8,7 @@ import java.io.IOException;
 public class demoase {
     private JButton button1;
     public JPanel jpanel;
+    private JTextField textField1;
 
     public demoase() {
         button1.addActionListener(new ActionListener() {
@@ -43,4 +44,6 @@ public class demoase {
 
         });
     }
+
+
 }
